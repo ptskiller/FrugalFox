@@ -2,6 +2,10 @@ import telebot
 <<<<<<< HEAD
 
 bot = telebot.TeleBot(7519194105:AAEuScnXthxWVgO8b9TRScwyC_wVP44Ktzc)
+=======
+import requests
+bot = telebot.TeleBot(config.token)
+>>>>>>> 8f1c93a8b9a8a0f33a6af224595908983a387a54
 API = 'token'
 
 
