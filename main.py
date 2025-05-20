@@ -16,3 +16,4 @@ def get_weather(message):
     city = message.text.strip().lower()
 
 bot.polling(none_stop=True)
+
