@@ -1,4 +1,5 @@
 import telebot
+<<<<<<< HEAD
 
 bot = telebot.TeleBot(7519194105:AAEuScnXthxWVgO8b9TRScwyC_wVP44Ktzc)
 API = 'token'
@@ -14,6 +15,7 @@ def start(message):
 @bot.message_handler(content_types=['text'])
 def get_weather(message):
     city = message.text.strip().lower()
+    requests.get('ссылка на сайт')
 
 bot.polling(none_stop=True)
 
