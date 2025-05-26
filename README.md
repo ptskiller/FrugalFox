@@ -1,2 +1,2 @@
-# FrugalFox
- money helper 
+# CITY WEATHER
+WEATHER BOT
